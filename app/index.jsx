@@ -23,7 +23,7 @@ const Welcome = () => {
       >
         <View className="w-full flex justify-center items-center h-full px-4">
           <Image
-            source={images.logo}
+            source={images.logoSmall}
             className="w-[130px] h-[84px]"
             resizeMode="contain"
           />
@@ -38,7 +38,7 @@ const Welcome = () => {
             <Text className="text-3xl text-white font-bold text-center">
               Discover Endless{"\n"}
               Possibilities with{" "}
-              <Text className="text-secondary-200">ReekAI</Text>
+              <Text className="text-secondary-200">ReelAI</Text>
             </Text>
 
             <Image
